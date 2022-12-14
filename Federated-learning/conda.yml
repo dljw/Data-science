@@ -1,0 +1,12 @@
+name: federated-learning
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - pandas==1.4.4
+    - ipykernel
+    - matplotlib
+    - seaborn
+    - plotly==5.11.0
+
+        
