@@ -1,6 +1,6 @@
 name: federated-learning
 dependencies:
-  - python=3.8
+  - python==3.9.13
   - pip
   - pip:
     - pandas==1.4.4
@@ -8,5 +8,9 @@ dependencies:
     - matplotlib
     - seaborn
     - plotly==5.11.0
+    - scikit-learn
+    - flwr==^1.0.0
+    - tensorflow-macos==2.9.1
+    - tensorflow-metal==0.6.0
 
         
